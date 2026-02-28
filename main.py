@@ -305,7 +305,7 @@ async def time_selected(callback: CallbackQuery):
             args=[callback.from_user.id, data["date"], time]
         )
 
-    await callback.message.answer(f"✅ Navbat olindi!\n{data['date']} {time}")
+    await callback.message.answer(f"✅ Uchrashuv belgilandi!\n{data['date']} {time}")
 
 
 # ================= MAIN =================
