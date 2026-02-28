@@ -141,6 +141,7 @@ async def start(message: Message):
     if not services:
         await message.answer("Admin hali xizmat qo‘shmagan.")
         return
+    await callback.answer()    
     await message.answer("Xizmatni tanlang:", reply_markup=services_keyboard(services))
 
 
